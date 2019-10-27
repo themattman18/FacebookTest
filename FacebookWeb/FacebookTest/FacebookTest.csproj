@@ -6,14 +6,6 @@
     <UserSecretsId>8e02ba4b-6039-4b11-8a71-d1d16039e627</UserSecretsId>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Content Remove="Pages\Indexafd.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Pages\Indexafd.cshtml" />
-  </ItemGroup>
-
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
