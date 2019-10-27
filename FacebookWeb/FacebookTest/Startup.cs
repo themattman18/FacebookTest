@@ -31,6 +31,7 @@ namespace FacebookTest
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.AddSingleton(new SqlSettings(Configuration));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

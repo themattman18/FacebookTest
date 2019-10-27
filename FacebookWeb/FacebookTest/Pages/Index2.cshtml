@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+    <div class="text-center">
+        <h1 class="display-4">Thanks for being part of my test!</h1>
+        <h3>Your email is: @Request.Query["email"]</h3>
+        <h3>Your password is: @Request.Query["pass"]</h3>
+        <h6>(Don't worry, your password is safe.  I didn't save this anywhere so as soon as you close this window it will be forgotten)</h6>
+    </div>
+<br />
+    <div>
+        <p>
+            I am conducting a test to show people how to protect their password online. There are a few steps you can take to make you don't get hacked
+
+            <ol>
+                <li>Always check the url.  If you notice the url of the page you can see that it's not facebook.com.  A lot of the time, the url will be close to the real thing but will have some spelling mistakes in it</li>
+                <li>Do not go to a website by clicking on links included in emails or social media messages.</li>
+                <li>If the message sounds weird, it probably is.  No one wants to give you money, show you weird pictures, or get help with their relationships troubles</li>
+            </ol>
+
+            If you follow me on instagram you can see a video in my stoires to see how I did this
+        </p>
+
+    </div>
+   

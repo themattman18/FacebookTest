@@ -3,11 +3,20 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <UserSecretsId>8e02ba4b-6039-4b11-8a71-d1d16039e627</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Index.cshtml" />
+  </ItemGroup>
 
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App"/>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
