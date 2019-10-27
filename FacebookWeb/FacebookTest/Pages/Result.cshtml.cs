@@ -8,10 +8,10 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace FacebookTest.Pages
 {
-    public class IndexModel : PageModel
+    public class ResultModel : PageModel
     {
         public SqlSettings Settings { get; set; }
-        public IndexModel(SqlSettings mySettings)
+        public ResultModel(SqlSettings mySettings)
         {
             Settings = mySettings;
         }
